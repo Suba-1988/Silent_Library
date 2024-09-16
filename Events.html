@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events & Promotions</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="Style1.css">
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+   <!-- common Header and footer -->
+   <script>
+    $(document).ready(function(){ 
+      $("header").load("header.html");
+      $("footer").load("footer.html");
+    });
+   </script>
+</head>
+<body>
+    <header>
+        <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="assets/logo.jpg" alt="Logo" width="30"  class="d-inline-block align-text-top">
+           Silent Library
+          </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="books_Catalogue.html">Books</a>
+          <li class="nav-item"></li>
+            <a class="nav-link" href="booksdetails.html">Books Details</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="Events.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Events and Promotions
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Events</a></li>
+              <li><a class="dropdown-item" href="#">Promotions</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav> -->
+    </header>
+    
+    <section id="events" class="section">
+        <div class="container">
+            <h2>Upcoming Events</h2>
+            <div class="event-card">
+                <img src="/assets/Leonardo_Phoenix_Create_an_inviting_image_for_a_library_event_1.jpg" alt="Event 1">
+                <div class="event-details">
+                    <h3>Digital Literacy Workshop</h3>
+                    <p>Date: September 30, 2024</p>
+                    <p>Location: Silent Library</p>
+                    <p>Offer a workshop on digital skills, such as using e-books, online databases, or navigating digital library resources. You could include sessions on internet safety, using social media effectively, or exploring educational apps. This helps patrons of all ages become more comfortable with technology and make the most of digital resources offered by the library.</p>
+                </div>
+            </div>
+            <div class="event-card">
+                <img src="/assets/event2.jpg" alt="Event 2">
+                <div class="event-details">
+                    <h3>Community storytelling Night</h3>
+                    <p>Date: October 15, 2024</p>
+                    <p>Location: Silent Library</p>
+                    <p>Organize an event where community members can come together to share their own stories, whether they’re personal anecdotes, fictional tales, or cultural folklore. This could be an open mic-style event, allowing participants to sign up in advance or spontaneously. It’s a great way to celebrate local talent and encourage a sense of community.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="promotions" class="section">
+        <div class="container">
+            <h2>Current Promotions</h2>
+            <div class="promotion-card">
+                <img src="/assets/Promotion.jpg" alt="Promotion 1">
+                <div class="promotion-details">
+                    <h3>Library Card Sign-Up Month</h3>
+                    <p>Join us this month to get your library card! New members will receive a special welcome gift and have a chance to win exciting prizes. Sign up today and explore all the fantastic resources we offer!</p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+            </div>
+            <div class="promotion-card">
+                <img src="/assets/Promotion1.jpg" alt="Promotion 2">
+                <div class="promotion-details">
+                    <h3>Reading Challenge</h3>
+                    <p>Take part in our Reading Challenge! Read books from different categories and earn rewards like bookmarks and tote bags. Share your reading journey with us and celebrate at our special event.</p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer start -->
+  <footer>
+  </footer>
+ <!-- Footer end -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

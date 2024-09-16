@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="./style.css" rel="stylesheet" >
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <title>Contact Form</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script> 
+   <!-- common Header and footer -->
+   <script>
+    $(document).ready(function(){ 
+      $("header").load("header.html");
+      $("footer").load("footer.html");
+    });
+   </script> 
+  </head>
+  <body>
+    <div class="container">
+    <header class="clearfix">
+    </header>
+  </div>
+    <div class="content">
+        <div class="row">
+            <div class="col-md-7">
+              <h4>Get in touch</h4>
+                <div class="mb-3">
+                    <label for="formGroupExampleInput" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter your name">
+                  </div>
+                  <div class="mb-3">
+                    <label for="formGroupExampleInput2" class="form-label">Email</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Enter your email">
+                  </div>
+                  <div class="mb-3">
+                    <label for="formGroupExampleInput2" class="form-label">Contact Number</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Enter your number">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                  <button class="btn btn-primary">Submit</button>
+            </div>
+            <div class="col-md-5 ">
+              <h4>Contact us</h4><hr>
+              <div class="mt-4">
+                  <div class="d-flex">
+                    <i class="bi bi-geo-alt-fill"></i>
+                    <p >Address: 12,Canberra Road,Singapore 10016</p>
+                  </div><hr>
+                  <div class="d-flex">
+                    <i class="bi bi-telephone-fill"></i>
+                    <p>Contact :- 8888888888</p>
+                  </div><hr>
+                  <div class="d-flex">
+                    <i class="bi bi-envelope-fill"></i>
+                    <p>Email:- info.silentlibrary@gmail.com</p>
+                  </div><hr>
+                  <div class="d-flex">
+                    <i class="bi bi-browser-chrome"></i>
+                    <p>Website: www.SilentLibrary.com</p>
+                  </div><hr>
+              </div>
+            </div>
+        </div>
+    </div>
+<!--  Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
